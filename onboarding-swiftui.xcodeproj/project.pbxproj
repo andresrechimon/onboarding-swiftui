@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8310C5CA2BEA92FE00CDF682 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8310C5C92BEA92FE00CDF682 /* PageControl.swift */; };
 		833D3B282BEA7F7F007D9E31 /* onboarding_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D3B272BEA7F7F007D9E31 /* onboarding_swiftuiApp.swift */; };
-		833D3B2A2BEA7F7F007D9E31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D3B292BEA7F7F007D9E31 /* ContentView.swift */; };
 		833D3B2C2BEA7F7F007D9E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833D3B2B2BEA7F7F007D9E31 /* Assets.xcassets */; };
 		833D3B2F2BEA7F7F007D9E31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833D3B2E2BEA7F7F007D9E31 /* Preview Assets.xcassets */; };
+		833D3B362BEA805E007D9E31 /* Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D3B352BEA805E007D9E31 /* Subview.swift */; };
+		833D3B382BEA8427007D9E31 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D3B372BEA8427007D9E31 /* OnboardingView.swift */; };
+		833D3B3A2BEA8534007D9E31 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D3B392BEA8534007D9E31 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8310C5C92BEA92FE00CDF682 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		833D3B242BEA7F7F007D9E31 /* onboarding-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onboarding-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833D3B272BEA7F7F007D9E31 /* onboarding_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding_swiftuiApp.swift; sourceTree = "<group>"; };
-		833D3B292BEA7F7F007D9E31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		833D3B2B2BEA7F7F007D9E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833D3B2E2BEA7F7F007D9E31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		833D3B352BEA805E007D9E31 /* Subview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subview.swift; sourceTree = "<group>"; };
+		833D3B372BEA8427007D9E31 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		833D3B392BEA8534007D9E31 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				833D3B272BEA7F7F007D9E31 /* onboarding_swiftuiApp.swift */,
-				833D3B292BEA7F7F007D9E31 /* ContentView.swift */,
 				833D3B2B2BEA7F7F007D9E31 /* Assets.xcassets */,
 				833D3B2D2BEA7F7F007D9E31 /* Preview Content */,
+				833D3B352BEA805E007D9E31 /* Subview.swift */,
+				833D3B372BEA8427007D9E31 /* OnboardingView.swift */,
+				833D3B392BEA8534007D9E31 /* PageViewController.swift */,
+				8310C5C92BEA92FE00CDF682 /* PageControl.swift */,
 			);
 			path = "onboarding-swiftui";
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833D3B2A2BEA7F7F007D9E31 /* ContentView.swift in Sources */,
+				8310C5CA2BEA92FE00CDF682 /* PageControl.swift in Sources */,
+				833D3B362BEA805E007D9E31 /* Subview.swift in Sources */,
+				833D3B382BEA8427007D9E31 /* OnboardingView.swift in Sources */,
 				833D3B282BEA7F7F007D9E31 /* onboarding_swiftuiApp.swift in Sources */,
+				833D3B3A2BEA8534007D9E31 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
